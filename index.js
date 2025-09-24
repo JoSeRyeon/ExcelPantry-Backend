@@ -1,5 +1,6 @@
 import express from 'express';
 import cors from 'cors';
+import 'dotenv/config';
 import bodyParser from 'body-parser';
 import fileUpload from 'express-fileupload';
 import excelRoutes from './routes/excelRoutes.js';
